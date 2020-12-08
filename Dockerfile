@@ -4,5 +4,5 @@ WORKDIR /app
 ARG ARTIFACTORY_USER
 ARG ARTIFACTORY_APIKEY
 COPY ./ /app
-RUN GOPROXY=https://$ARTIFACTORY_USER:$ARTIFACTORY_APIKEY@wework.jfrog.io/artifactory/api/go/go GONOSUMDB=github.com/weconnect go get -v github.com/petergtz/pegomock/pegomock
+RUN GOPROXY=https://$ARTIFACTORY_USER:$ARTIFACTORY_APIKEY@wework.jfrog.io/artifactory/api/go/go GONOSUMDB=github.com/weconnect go install
 CMD ["echo", "hello"]
