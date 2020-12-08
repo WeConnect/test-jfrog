@@ -4,10 +4,10 @@ go 1.15
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.0.7
-	github.com/GeertJohan/go.rice v1.0.0
 	github.com/Masterminds/sprig/v3 v3.1.0
 	github.com/avast/retry-go v2.6.0+incompatible
 	github.com/aws/aws-sdk-go v1.34.28
+	github.com/petergtz/pegomock/pegomock v2.8.0+incompatible
 	github.com/weconnect/proton-go v0.2.352
 	github.com/whilp/git-urls v0.0.0-20191001220047-6db9661140c0
 	golang.org/x/net v0.0.0-20200707034311-ab3426394381
